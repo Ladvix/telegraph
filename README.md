@@ -24,7 +24,13 @@ async def main():
         r = await client.create_page(
             title='Test telegra.ph',
             content=[
-                NodeElement(tag='p', children=['Hello, ', NodeElement(tag='b', children=['world!'])])
+                NodeElement(
+                    tag='p',
+                    children=[
+                        'Hello, ',
+                        NodeElement(tag='b', children=['world!'])
+                    ]
+                )
             ]
         )
         print(r)
