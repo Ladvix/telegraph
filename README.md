@@ -5,9 +5,7 @@ Async python wrapper for Telegraph
 ## Install
 
 ```bash
-git clone https://github.com/Ladvix/telegraph.git
-cd telegraph
-pip install -r requirements.txt
+pip install async-wrapper-telegraph
 ```
 
 ## Usage
